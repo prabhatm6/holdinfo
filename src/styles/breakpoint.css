@@ -1,0 +1,152 @@
+@media screen and (max-width: 780px) {
+  .wrapper {
+    /* padding: 10px 20; */
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  /* navbar */
+  .navbar {
+    padding: 30px;
+    flex-direction: column !important;
+    height: 270px;
+    align-items: center !important;
+    /* background-color: red; */
+    text-align: center;
+  }
+
+  .navbar__head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar__menu {
+    width: 60%;
+  }
+
+  .navbar__menu select {
+    padding: 6px;
+    font-size: 15px;
+  }
+
+  .navbar__menu button {
+    padding: 7px 8px;
+    font-size: 15px;
+  }
+
+  .navbar__right {
+    width: 85%;
+  }
+
+  .navbar__right button {
+    padding: 8px;
+    width: 160px;
+    font-size: 15px;
+  }
+  /* table */
+  .table {
+    padding: 20px;
+    width: 700px;
+    border-spacing: 0px 30px;
+  }
+  .table__row {
+    font-size: 16px;
+  }
+
+  .table__wrapper {
+    overflow: scroll;
+  }
+
+  .table__platform img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .main__img {
+    padding: 30px;
+  }
+  /* footer */
+  .footer {
+    padding: inherit 10px;
+  }
+  .footer__list {
+    width: 80%;
+  }
+
+  .footer__list li {
+    font-size: 10px;
+  }
+
+  /* info */
+  .info {
+    padding: 10px 25px;
+  }
+
+  .avg__head {
+    font-size: 15px;
+  }
+
+  .avg__subhead {
+    font-size: 11px;
+  }
+
+  .info__main-head {
+    font-size: 16px;
+  }
+
+  .info__main-price {
+    font-size: 23px;
+    margin: 6px 0;
+  }
+
+  .info__main-note {
+    font-size: 10px;
+  }
+
+  .todo__wrapper button {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .table__row {
+    font-size: 14px;
+  }
+  .navbar__menu {
+    width: 65%;
+  }
+
+  .navbar__right {
+    width: 92%;
+  }
+  .info {
+    padding: 8px 20px;
+  }
+
+  .avg__head {
+    font-size: 13px;
+  }
+
+  .avg__subhead {
+    font-size: 9px;
+  }
+
+  .info__main-head {
+    font-size: 14px;
+  }
+
+  .info__main-price {
+    font-size: 21px;
+    margin: 6px 0;
+  }
+
+  .info__main-note {
+    font-size: 8px;
+  }
+
+  .todo__wrapper button {
+    font-family: monospace;
+    font-size: 12px !important;
+  }
+}

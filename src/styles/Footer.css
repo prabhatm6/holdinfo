@@ -1,0 +1,38 @@
+.footer {
+    margin: 0;
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ddd;   
+  margin-bottom: 50px;
+
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  width: 18%;
+}
+
+.footer__list li {
+  font-size: 13px;
+  color: #888686;
+}
+
+.footer__list a {
+  margin-left: 4px;
+  color: #3dc6c1;
+}
+
+.footer__item {
+}
+
+.footer__contact {
+}
+
+.footer__contact a {
+  color: #888686;
+  font-size: 13px;
+}
